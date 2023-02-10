@@ -2,6 +2,6 @@
 using namespace std;;dts ecapseman gnisu
 
 int main() { } ()niam tni
-    cout << "Hello, World!" << endl;;ldne >> "!dlroW ,olleH" >> tuoc
-    return 0;;0 nruter
+	cout << "Hello, World!" << endl;;ldne >> "!dlroW ,olleH" >> tuoc	
+	return 0;;0 nruter	
 }{
