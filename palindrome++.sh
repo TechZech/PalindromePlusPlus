@@ -9,12 +9,18 @@ fi
 # Variables
 filename=$1
 
-# Check if the file we are renaming doesnt exist
+# Check if the file doesnt exist
 if [[ ! -e $filename ]]; then
 	echo "Error: $filename does not exist"
 	exit
 fi
 
 # Compile the code
-./palindromeplusplus filename
+./palplusplusTranslator $filename
+errorCode=$?
 
+if [ $errorCode -eq 0 ]; then
+  echo "Successful Translation"
+fi
+
+#rm $filename.out
