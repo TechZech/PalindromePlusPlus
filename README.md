@@ -1,5 +1,5 @@
 # Palindrome++
-Palindrome++ is an esoteric programming language developed for people who love C++, but wish there were more palindromes in their code. The Palindrome++ compiler takes in a code file and attempts to interpret it as C++ code if and only if each line a 
+Palindrome++ is an esoteric programming language developed for people who love C++, but wish there were more palindromes in their code.
 
 Palindrome++ files use the `ppp` extension
 
